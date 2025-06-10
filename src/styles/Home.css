@@ -1,0 +1,102 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F7EFDA;
+}
+
+.home-lobby {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.lobby-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  z-index: 1;
+}
+
+.lobby-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: #F7EFDA;
+  padding: 0 1rem;
+}
+
+.lobby-text h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.lobby-text p {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.lobby-text button {
+  background-color: #BADD7F;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  color: #3E8440;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.lobby-text button:hover {
+  background-color: #a3c76e;
+}
+/* Galería */
+.gallery-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  min-width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+
+  border: 4px solid #BADD7F;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
+.book-button {
+  margin-top: 2rem;
+  background-color: #EFACA5; /* Melon */
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}

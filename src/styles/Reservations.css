@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefae0; /* Fondo general claro */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reservations-container {
+  width: 100%;
+  background-color: #fefae0;
+}
+
+.lobby-section {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lobby-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lobby-title {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.calendar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  background-color: #e9f5db;
+}
+
+.calendar-section input,
+.calendar-section button {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.calendar-section button {
+  background-color: #EFACA5;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.calendar-section button:hover {
+  background-color: #EFACA5;
+}
+
+.room-card {
+  background-color: #fffaf3;
+  border: 2px solid #e3cba6;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 1rem;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.room-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-details {
+  padding: 1rem;
+  color: #3E8440;
+}
+
+.room-button {
+  background-color: #EFACA5;
+  color: #3E8440;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fefae0;
+  color: #213547;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.logo {
+  height: 5rem;
+  padding: 1rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 0.75rem #4caf50aa);
+  transform: scale(1.05);
+}
+
+/* Tarjetas o secciones generales */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+/* Para texto secundario o informativo */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+}

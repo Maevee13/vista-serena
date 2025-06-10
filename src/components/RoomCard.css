@@ -1,0 +1,36 @@
+.room-card {
+  background-color: #fffaf3;
+  border: 2px solid #e3cba6;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.room-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-details {
+  padding: 1rem;
+  color: #3E8440;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+}
+
+.room-button {
+  background-color: #BADD7F;
+  color: #3E8440;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
